@@ -1,0 +1,29 @@
+{
+  "name": "meanwifi-util",
+  "version": "1.0.0",
+  "description": "data import scripts and other utils",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "import": "mongo loc8r mongo-import.js",
+    "db-start": "sudo systemctl start mongod && sudo systemctl status mongod",
+    "db-stop": "sudo systemctl stop mongod && sudo systemctl status mongod",
+    "db-status": "sudo systemctl status mongod",
+    "prod-restart": "heroku restart -a meanwifi",
+    "prod-log-tail": "heroku logs -tail -a meanwifi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketnewton/meanwifi-util.git"
+  },
+  "author": "Jon Newton",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/rocketnewton/meanwifi-util/issues"
+  },
+  "homepage": "https://github.com/rocketnewton/meanwifi-util#readme",
+  "devDependencies": {
+    "eslint": "7.5.0",
+    "eslint-plugin-mongo": "^1.0.5"
+  }
+}
