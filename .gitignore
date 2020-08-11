@@ -1,3 +1,5 @@
+#has auth token - keep it private! 
+ghauth.js
 #vim swap files 
 *.swp
 # Logs

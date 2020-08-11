@@ -4,7 +4,8 @@ module.exports = {
     ],
     "env": {
         "commonjs": true, /* for this file */
-        "mongo/shell": true
+        "mongo/shell": true, 
+        "node": true
     },
     /* eslint:recommended property enables rules that report common problems 
        See the list at https://eslint.org/docs/rules/ */
