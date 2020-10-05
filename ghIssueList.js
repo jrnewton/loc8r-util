@@ -12,7 +12,7 @@ const octokit = new Octokit( { auth: auth.key } );
 const requestUrl = "GET /repos/:org/meanwifi/issues";
 console.log(`Making request ${requestUrl}`);
 octokit.request(requestUrl, {
-  org: "rocketnewton",
+  org: "jrnewton",
   type: "all",
 }).then( (response) => { 
   console.log(`Status: ${response.status}`);
