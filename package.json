@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocketnewton/meanwifi-util.git"
+    "url": "git+https://github.com/jrnewton/meanwifi-util.git"
   },
   "author": "Jon Newton",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/rocketnewton/meanwifi-util/issues"
+    "url": "https://github.com/jrnewton/meanwifi-util/issues"
   },
-  "homepage": "https://github.com/rocketnewton/meanwifi-util#readme",
+  "homepage": "https://github.com/jrnewton/meanwifi-util#readme",
   "devDependencies": {
     "eslint": "7.5.0",
     "eslint-plugin-mongo": "^1.0.5"
